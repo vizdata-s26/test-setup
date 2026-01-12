@@ -1,0 +1,28 @@
+---
+title: "Test your setup for STA 313 - Spring 2026"
+format: html
+embed-resources: true
+---
+
+```{r}
+#| label: load-packages
+#| message: false
+library(tidyverse)
+```
+
+With this very simple plot.
+
+Make the following changes to the code cell below:
+
+1. Change the figure width and aspect ratio by adding code cell options to make the figure 5 inches wide and have an aspect ratio of 0.6.
+2. Add a title to the plot that says "Miles per gallon vs. weight".
+
+Then, render, commit, and push your changes.
+
+```{r}
+#| label: simple-plot
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point()
+```
+
+
