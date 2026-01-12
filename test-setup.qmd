@@ -1,7 +1,6 @@
 ---
 title: "Test your setup for STA 313 - Spring 2026"
 format: html
-embed-resources: true
 ---
 
 ```{r}
